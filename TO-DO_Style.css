@@ -1,0 +1,199 @@
+ body{
+
+  background-color:#8C8C8C;
+  margin:0px;
+  overflow-x:hidden;
+  
+  
+  }
+
+div#header-top{
+  background: #262626;
+  height: 50px;
+  width:900px;;
+}
+
+div input{
+
+  background:whitesmoke;
+  width: 400px;
+  height:38px;
+  margin-top:5px;
+  margin-left:235px;
+  outline: none;
+  border:none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-left:10px;
+  padding-right:5px;
+  font-size:14px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+div button#button{
+  height:40px;
+  width:50px;
+  margin-left:-3px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  outline:none;
+  border:none;
+  padding:8px;
+  color: white;
+  background-color:gray;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  
+}
+div#todo_display{
+
+  height: 350px;
+  width:600px;
+  margin-left:165px;
+  background-color: whitesmoke;
+  box-shadow: 8px whitesmoke;
+  padding-top:10px;
+  overflow:hidden;
+  overflow:auto;
+  overflow-x:hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+}
+div#title{
+  background-color: grey;
+  color:white;
+  font-size: 18px;
+ font-family: 'Open Sans', sans-serif;
+ height: 45px;
+ text-align: center;
+ padding-top:10px;
+ overflow: hidden;
+ margin-top:10px;
+ width:600px;
+ margin-left:165px;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+}
+div#title_complete{
+  background-color: grey;
+  color:white;
+  font-size: 18px;
+ font-family: 'Open Sans', sans-serif;
+ height: 45px;
+ text-align: center;
+ padding-top:10px;
+ overflow: hidden;
+ margin-top:10px;
+ width:600px;
+ margin-left:165px;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+}
+
+
+div#todoItem ul#listoftodo li{
+
+  background-color: #DCEAF2;
+  height:58px;
+  width:90%;
+  list-style: none;
+  margin-left:10px;
+  margin-top:20px;
+  font-family: 'Open Sans', sans-serif;
+  padding-left:10px;
+  padding-top:20px;
+  position: relative;
+  line-height: 22px;
+  font-weight:600;
+  border-radius:10px;
+  overflow: hidden;
+  white-space: nowrap;
+  
+ 
+}
+div#todoItem1 ul#completedtoTo-Do li{
+
+  background-color: #DCEAF2;
+  height:58px;
+  width:90%;
+  list-style: none;
+  margin-left:10px;
+  margin-top:20px;
+  font-family: 'Open Sans', sans-serif;
+  padding-left:10px;
+  padding-top:15px;
+  position: relative;
+  line-height: 22px;
+  font-weight:600;
+  border-radius:10px;
+   overflow: hidden;
+   box-sizing: border-box;
+   
+ 
+}
+
+div#todoItem1{
+
+  height: 350px;
+  width:600px;
+  margin-left:165px;
+  background-color: whitesmoke;
+  box-shadow: 8px whitesmoke;
+  padding-top:10px;
+  overflow:hidden;
+  overflow:auto;
+  overflow-x:hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+  
+}
+div#todoItem ul#listoftodo li div.buttons{
+  background-color: none;
+  float: right;
+  z-index: -4px;
+  
+}
+div#todoItem ul#listoftodo li div.buttons button{
+
+  float:left;
+  background: none;
+  outline: none;
+  border:transparent;
+  margin-top: -3px;
+  margin-right:4px;  
+
+}
+div#todoItem1 ul#completedtoTo-Do li div.buttons_completed button {
+
+  float: right;
+  width:60px;
+  height:60px;
+  background-color: #DCEAF2;
+  border:transparent;
+  margin-top:-39px;
+  position:relative;
+  outline: none;
+}
+
+li div.buttons button:last-of-type::before{
+  content:'';
+  width:1px;
+  height:45px;
+  position:absolute;
+  background:lightgrey;
+  margin-left:-10px;
+  margin-top:-10px;
+
+
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:grey;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
